@@ -72,9 +72,9 @@ Hypothèse : 3 agents à temps partiel, zone prioritaire Guinée puis élargisse
 
 ## 7. Équipe
 
-- **Alpha Baldé** — Développeur backend (Node.js, MongoDB, intégration IA), porteur du projet, basé à Conakry, Guinée.
+- **Alpha Saliou Baldé**  Développeur backend (Node.js, MongoDB, intégration IA), porteur du projet, basé à Conakry, Guinée.
 - **Contact** : alphasalioubalde231@gmail.com | Telegram : Undertaker
-- **Entité juridique** : MarketConnect (SARLU, Guinée) — statuts en cours de finalisation auprès du RCCM. Le projet sera porté comme nouvelle activité/filiale de MarketConnect.
+- **Entité juridique** : MarketConnect (SARLU, Guinée) statuts en cours de finalisation auprès du RCCM. Le projet sera porté comme nouvelle activité/filiale de MarketConnect.
 
 ## 8. Prochaines étapes après financement
 
@@ -85,4 +85,6 @@ Hypothèse : 3 agents à temps partiel, zone prioritaire Guinée puis élargisse
 
 ---
 
-*Document de candidature préparé pour le BNB Chain Builder Grant, basé sur le document d'architecture technique complet du projet (architecture-ddm.md).*
+*Document de candidature préparé pour le BNB Chain Builder Grant.*
+
+**Document d'architecture technique complet** : https://github.com/AlphaSaliou-dev/karadata/blob/main/architecture-ddm.md
