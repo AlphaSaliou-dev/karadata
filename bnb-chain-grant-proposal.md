@@ -6,7 +6,7 @@
 
 ## 1. Résumé du projet (Executive Summary)
 
-Une marketplace décentralisée de données conçue pour combler un vide majeur : la rareté de données de qualité issues de marchés et de communautés sous-représentés (Afrique de l'Ouest en premier lieu et dans les secteurs comme la santé et l'économie). La plateforme connecte des fournisseurs de données vérifiées à des acheteurs (chercheurs, entreprises, développeurs IA), avec paiement et récompense qualité en **GenCoin (GNC)**, un token BEP-20 natif sur BNB Smart Chain.
+Une marketplace décentralisée de données à vocation mondiale, conçue pour combler un vide majeur : la rareté de données de qualité issues de marchés et de communautés sous-représentés dans les marketplaces existantes. Le lancement démarre en Afrique de l'Ouest (santé, économie) un terrain de validation à fort potentiel de différenciation avec une architecture et un modèle conçus dès le départ pour s'étendre à d'autres régions sous-représentées à travers le monde. La plateforme connecte des fournisseurs de données vérifiées à des acheteurs (chercheurs, entreprises, développeurs IA) partout dans le monde, avec paiement et récompense qualité en **GenCoin (GNC)**, un token BEP-20 natif sur BNB Smart Chain.
 
 **Ce qui différencie ce projet** : contrairement aux marketplaces de données génériques, l'accent est mis sur des données qui ne sont *pas* librement disponibles sur Internet (données locales, sectorielles, vérifiées par un pipeline d'analyse qualité automatisé).
 
@@ -14,7 +14,7 @@ Une marketplace décentralisée de données conçue pour combler un vide majeur 
 
 ## 2. Le problème
 
-- Les jeux de données de qualité sur des marchés émergents (Afrique de l'Ouest notamment) sont rares, dispersés, et rarement monétisables pour ceux qui les détiennent.
+- Les jeux de données de qualité issues de marchés émergents et sous-représentés (Afrique de l'Ouest en premier lieu, avec une extension prévue à d'autres régions) sont rares, dispersées, et rarement monétisables pour ceux qui les détiennent.
 - Les marketplaces de données existantes sont saturées de données déjà scrapées/publiques, ce qui limite leur valeur réelle pour l'IA et la recherche.
 - Les fournisseurs de données locales n'ont aujourd'hui aucun moyen simple et équitable d'être rémunérés pour des données vérifiées.
 
@@ -26,7 +26,7 @@ Une plateforme en trois couches optimisées :
 Next.js (UX, wallet, catalogue) → Node.js (API, orchestration, paiements) → Python (analyse qualité IA)
 ```
 
-- **Sourcing terrain via agents de partenariats data** : recrutement d'agents de développement commercial chargés de négocier des accords de partage de données, avec consentement explicite, auprès d'entreprises locales et internationales — le principal levier de différenciation face aux marketplaces génériques.
+- **Sourcing terrain via agents de partenariats data** : recrutement d'agents de développement commercial chargés de négocier des accords de partage de données, avec consentement explicite, auprès d'entreprises locales et internationales, le principal levier de différenciation face aux marketplaces génériques.
 - **Vérification qualité automatisée** : chaque dataset soumis passe par un pipeline d'analyse Python (score de qualité, détection de duplication avec des données publiques déjà connues).
 - **Paiement et récompense en GNC** : les acheteurs paient en GenCoin ; les vendeurs dont les données obtiennent un score qualité élevé reçoivent un bonus supplémentaire depuis une réserve dédiée.
 - **Architecture asynchrone scalable** : traitement des fichiers lourds via file d'attente (Redis/BullMQ), sans bloquer l'expérience utilisateur.
@@ -57,9 +57,9 @@ Next.js (UX, wallet, catalogue) → Node.js (API, orchestration, paiements) → 
 | Infrastructure initiale | Couvrir les besoins de scaling au-delà des tiers gratuits une fois la traction validée |
 | Intégration Web3 (Phase 3 de la roadmap) | Connexion wallet, smart contract d'escrow marketplace, mécanisme de récompense qualité on-chain |
 
-### 6.1 Budget estimatif 
+### 6.1 Budget estimatif
 
-Hypothèse : 3 agents à temps partiel, zone prioritaire Guinée puis élargissement Afrique de l'Ouest (Sénégal, Côte d'Ivoire), sur une période de 5 mois. Rémunération agents basée sur un taux local de 100-200 $/mois.
+Hypothèse pour la phase de lancement : 3 agents à temps partiel, zone prioritaire Guinée puis élargissement Afrique de l'Ouest (Sénégal, Côte d'Ivoire), sur une période de 5 mois avant extension à d'autres régions une fois le modèle validé. Rémunération agents basée sur un taux local de 100-200 $/mois.
 
 | Poste | Estimation | Détail |
 |---|---|---|
@@ -70,9 +70,11 @@ Hypothèse : 3 agents à temps partiel, zone prioritaire Guinée puis élargisse
 | Marge de sécurité / imprévus | ~1 000 $ | Marge standard couvrant les imprévus du projet |
 | **Total estimé** | **~8 000 – 15 000 $** | Montant total demandé, ajustable selon les modalités du programme |
 
+> **Montant de la subvention demandé** : 10 000 $ (au sein de la fourchette 8 000 – 15 000 $ détaillée en section 6.1)
+
 ## 7. Équipe
 
-- **Alpha Saliou Baldé**  Développeur backend (Node.js, MongoDB, intégration IA), porteur du projet, basé à Conakry, Guinée.
+- **Alpha Saliou Baldé** Développeur backend (Node.js, MongoDB, intégration IA), porteur du projet, basé à Conakry, Guinée.
 - **Contact** : alphasalioubalde231@gmail.com | Telegram : Undertaker
 - **Entité juridique** : MarketConnect (SARLU, Guinée) statuts en cours de finalisation auprès du RCCM. Le projet sera porté comme nouvelle activité/filiale de MarketConnect.
 
